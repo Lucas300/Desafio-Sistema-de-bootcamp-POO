@@ -5,10 +5,9 @@ public abstract class Conteudo {
 	public static final int XP_PADRAO = 10;
 	private String titulo;
 	private String descricao;
-	
-	
+
 	public Conteudo() {
-	
+
 	}
 
 	public String getTitulo() {
@@ -26,6 +25,6 @@ public abstract class Conteudo {
 	public void setDescricao(String descricao) {
 		this.descricao = descricao;
 	}
-	
+
 	public abstract int calcularXp();
 }
